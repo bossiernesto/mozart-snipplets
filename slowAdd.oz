@@ -5,6 +5,6 @@ fun {SlowAdd X Y}
    X + Y
 end
 
-z={SlowAdd 1000 1} in
+X={SlowAdd 1000 1} in
  {Browse X * 3}
 end
