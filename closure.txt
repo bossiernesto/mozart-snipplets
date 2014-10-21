@@ -1,0 +1,5 @@
+1) "proc {Add B C E} ... end" is a syntatic sugar to represent "Add = proc {$ B C E}". Therefore, the procedure code of the procedure value does not contain the identifier Add.
+
+2) "Add -> a" is not contained in the contextual environment of a.
+
+3) Only D is a free indentifier. The procedure value only contains {D->d} in its contextual environment part.
